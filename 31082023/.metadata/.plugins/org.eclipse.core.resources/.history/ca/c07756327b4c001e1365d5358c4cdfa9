@@ -1,0 +1,13 @@
+package com.anil;
+
+
+public class LoggingLambda {
+//	private static final Logger;
+	
+	
+	public void handler(Object[] input) {
+		String message= String.format("Hello, %s!", input);
+		System.out.println(message);
+//		return message;
+	}
+}

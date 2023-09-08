@@ -1,0 +1,23 @@
+package com.anil;
+
+import java.util.List;
+
+public class InputOutputLambda {
+	
+	public int handler(int num) {
+		System.out.println("Input : "+num);
+		return num+100;
+	}
+	
+	
+//	public boolean handler(boolean flag) {
+//		return !flag;
+//	}
+//	
+//	public List<Integer> handler(List<Integer> list) {
+//		
+//		List<Integer> updatedList=list.forEach(a-> a+100);
+//		
+//		return !flag;
+//	}
+}

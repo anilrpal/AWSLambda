@@ -1,0 +1,25 @@
+package com.anil;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class InputOutputLambda {
+	
+//	public int handler(int num) {
+//		System.out.println("Input : "+num);
+//		return num+100;
+//	}
+	
+	
+//	public boolean handler(boolean flag) {
+//		System.out.println("Input : "+flag);
+//		return !flag;
+//	}
+	
+	public List<Integer> handler(List<Integer> list) {
+		System.out.println("Input : "+list);
+		List<Integer> updatedList=new ArrayList<>();
+		list.forEach(a-> updatedList.add(a+100));
+		return updatedList;
+	}
+}

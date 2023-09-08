@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hello-world-lambda/sam.yaml&apos; to &apos;sam.yml&apos;" description="Rename resource &apos;sam.yaml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sam.yaml" name="sam.yml" stamp="1694166261475" updateReferences="true"/>
+</session>

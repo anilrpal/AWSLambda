@@ -1,0 +1,38 @@
+package com.anil;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class InputOutputLambda {
+	
+//	public int handler(int num) {
+//		System.out.println("Input : "+num);
+//		return num+100;
+//	}
+	
+	
+//	public boolean handler(boolean flag) {
+//		System.out.println("Input : "+flag);
+//		return !flag;
+//	}
+	
+//	public List<Integer> handler(List<Integer> list) {
+//		System.out.println("Input : "+list);
+//		List<Integer> updatedList=new ArrayList<>();
+//		list.forEach(a-> updatedList.add(a+100));
+//		return updatedList;
+//	}
+	
+	
+	public Map<String,String> handler(Map<String,String> input) {
+		System.out.println("Input : "+input);
+		
+		Map<String,String> newMap=new HashMap<>();
+		
+		input.forEach((k,v)->newMap.put("New Map -> " +k, v));
+		
+		return newMap;
+	}
+}
