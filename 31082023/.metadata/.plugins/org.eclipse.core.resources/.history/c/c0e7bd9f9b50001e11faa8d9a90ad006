@@ -1,0 +1,28 @@
+package com.anil;
+
+import java.util.HashMap;
+
+public class HelloWorldLambda1 {
+	
+	public Response handler(Request input ) {
+		String message= String.format("Hello, %s!", input.pathParameters.get("name"));
+		System.out.println(message);
+		return new Response(200, message);
+	}
+	
+	
+	class Request{
+		HashMap<String,String> pathParameters=new HashMap<>();
+	}
+	
+	class Response{
+		private Integer statusCode;
+		private String body;
+		
+		public Response(Integer statusCode, String body) {
+			super();
+			this.statusCode = statusCode;
+			this.body = body;
+		}
+	}
+}

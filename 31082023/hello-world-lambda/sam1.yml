@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Learning Lambda - Hello World API
 Resources:
-  HelloWorldAPI:
+  HelloWorldAPI1:
     Type: AWS::Serverless::Api
     Properties:
       StageName: prod
@@ -14,23 +14,40 @@ Resources:
         schemes:
           - "https"
         paths:
-          /hello:
+          /hello/{name}:
             get:
-              produces:
-                - "application/json"
-              responses:
-                "200":
-                  schema:
-                    $ref: "#/definitions/Empty"
               x-amazon-apigateway-integration:
-                type: "mock"      
-                requestTemplates:
-                  "application/json": "{\"statusCode\": 200}"
-                responses:  
-                  default:
-                    statusCode: "200"
-        definitions:
-          Empty:
-            type: "object"
-            title: "Empty Schema"              
-                            
+               uri:
+#                Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${HelloWorldLambda1.Arn}:1/invocations"
+                Fn::Sub: "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${HelloWorldLambda1.Arn}:stable/invocations"
+               httpMethod: "POST"
+               type: "aws_proxy"
+  HelloWorldLambda1:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.anil.HelloWorldLambda1::handler
+      Runtime: java8
+      MemorySize: 512
+      Timeout: 10
+      CodeUri: target/hello-world-lambda-0.0.1-SNAPSHOT.jar
+      Environment:
+        Variables:
+          GREETING: Hola
+      Events:
+        ApiEvents:
+          Type: Api
+          Properties: 
+            RestApiId: !Ref HelloWorldAPI1
+            Path: /hello/{name}
+            Method: GET
+  ApiLambdaPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+#        Fn::Sub: "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${HelloWorldLambda1}:1"
+        Fn::Sub: "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${HelloWorldLambda1}:stable"
+      Action: "lambda:InvokeFunction"
+      Principal: "apigateway.amazonaws.com"
+      SourceArn:
+        Fn::Sub: "arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${HelloWorldAPI1}/*/*/*"
+        

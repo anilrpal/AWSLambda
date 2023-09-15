@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Learning Lambda - Hello World API
+Resources:
+  HelloWorldAPI1:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      DefinitionBody:
+        swagger: '2.0'
+        info:
+          title:
+            Ref: AWS::StackName
+        schemes:
+        - https
+        paths:
+          /hello/{name}:
+            get:
+              x-amazon-apigateway-integration:
+                uri:
+                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${HelloWorldLambda1.Arn}:1/invocations
+                httpMethod: POST
+                type: aws_proxy
+  HelloWorldLambda1:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.anil.HelloWorldLambda1::handler
+      Runtime: java8
+      MemorySize: 512
+      Timeout: 10
+      CodeUri: s3://mysambuck/d5625cafba9855c39ca4d79999d91a48
+      Environment:
+        Variables:
+          GREETING: Hola
+      Events:
+        ApiEvents:
+          Type: Api
+          Properties:
+            RestApiId:
+              Ref: HelloWorldAPI1
+            Path: /hello/{name}
+            Method: GET
+  ApiLambdaPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName:
+        Fn::Sub: arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:functions:${HelloWorldLambda1.Arn}:1
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Sub: arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:functions:${HelloWorldAPI1}/*/*/*
