@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
     <fullyQualifiedTypeName name="com.anil.InputOutputLambda.PojoInput"/>
     <fullyQualifiedTypeName name="com.anil.InputOutputLambda.PojoResponse"/>
@@ -17,4 +16,9 @@
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Response"/>
+    <fullyQualifiedTypeName name="com.anil.HelloWorldLambda1.Response"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.lambda.runtime.Context"/>
 </qualifiedTypeNameHistroy>

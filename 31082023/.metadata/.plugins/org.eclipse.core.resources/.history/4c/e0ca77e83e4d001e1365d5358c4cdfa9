@@ -1,8 +1,0 @@
-package com.anil;
-
-public class InputOutputLambda {
-	
-	public int handler(int num) {
-		return num+100;
-	}
-}
