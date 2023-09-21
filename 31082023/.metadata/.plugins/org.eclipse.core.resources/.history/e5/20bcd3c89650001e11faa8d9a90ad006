@@ -1,9 +1,0 @@
-package com.anil;
-
-public class HelloWorldLambda1 {
-	public String handler(Object[] input) {
-		String message= String.format("Hello, %s!", input);
-		System.out.println(message);
-		return message;
-	}
-}

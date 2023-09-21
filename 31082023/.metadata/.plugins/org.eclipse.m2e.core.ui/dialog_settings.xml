@@ -25,13 +25,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.anil"/>
 		</list>
 		<list key="groupId">
-			<item value="com.anil"/>
 		</list>
 		<list key="artifactId">
-			<item value="hello-world-lambda"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -47,10 +44,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.anil"/>
 		</list>
 		<list key="name">
+			<item value="aws-lamda-with-api-gateway"/>
 		</list>
 		<list key="artifactId">
+			<item value="aws-lamda-with-api-gateway"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

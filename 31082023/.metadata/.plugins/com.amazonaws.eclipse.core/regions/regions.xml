@@ -733,6 +733,38 @@
         </services>
     </region>
     <region>
+        <displayname>Israel (Tel Aviv)</displayname>
+        <systemname>il-central-1</systemname>
+        <flag-icon>flags/aws.png</flag-icon>
+        <min-toolkit-version>1.6.2.0</min-toolkit-version>
+        <services>
+            <service name="AutoScaling">https://autoscaling.il-central-1.amazonaws.com</service>
+            <service name="CloudFormation">https://cloudformation.il-central-1.amazonaws.com</service>
+            <service name="CloudFront" authregion="us-east-1">https://cloudfront.amazonaws.com</service>
+            <service name="CloudWatch">https://monitoring.il-central-1.amazonaws.com</service>
+            <service name="CloudWatchEvents">https://events.il-central-1.amazonaws.com</service>
+            <service name="CodeCommit">https://codecommit.il-central-1.amazonaws.com</service>
+            <service name="CodeDeploy">https://codedeploy.il-central-1.amazonaws.com</service>
+            <service name="DynamoDB">https://dynamodb.il-central-1.amazonaws.com</service>
+            <service name="DynamoDBStream">https://streams.dynamodb.il-central-1.amazonaws.com</service>
+            <service name="EC2">https://ec2.il-central-1.amazonaws.com</service>
+            <service name="ECR" authregion="il-central-1">https://api.ecr.il-central-1.amazonaws.com</service>
+            <service name="ECS">https://ecs.il-central-1.amazonaws.com</service>
+            <service name="ELB">https://elasticloadbalancing.il-central-1.amazonaws.com</service>
+            <service name="ElasticBeanstalk">https://elasticbeanstalk.il-central-1.amazonaws.com</service>
+            <service name="IAM" authregion="us-east-1">https://iam.amazonaws.com</service>
+            <service name="KMS">https://kms.il-central-1.amazonaws.com</service>
+            <service name="Kinesis">https://kinesis.il-central-1.amazonaws.com</service>
+            <service name="Lambda">https://lambda.il-central-1.amazonaws.com</service>
+            <service name="Logs">https://logs.il-central-1.amazonaws.com</service>
+            <service name="RDS">https://rds.il-central-1.amazonaws.com</service>
+            <service name="S3">https://s3.il-central-1.amazonaws.com</service>
+            <service name="SNS">https://sns.il-central-1.amazonaws.com</service>
+            <service name="SQS">https://sqs.il-central-1.amazonaws.com</service>
+            <service name="XRay">https://xray.il-central-1.amazonaws.com</service>
+        </services>
+    </region>
+    <region>
         <displayname>Middle East (UAE)</displayname>
         <systemname>me-central-1</systemname>
         <flag-icon>flags/aws.png</flag-icon>

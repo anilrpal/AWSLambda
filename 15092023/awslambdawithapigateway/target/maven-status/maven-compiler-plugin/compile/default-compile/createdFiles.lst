@@ -1,0 +1,3 @@
+com\anil\awslambdawithapigateway\LambdaHandler.class
+com\anil\awslambdawithapigateway\model\APIResponse.class
+com\anil\awslambdawithapigateway\model\Employee.class
