@@ -26,6 +26,7 @@ public class LambdaHandler implements RequestHandler<APIGatewayProxyRequestEvent
 		headers.put("X-amazon-apiVersion", "vq");
 		
 		String body= employeeList().toString();
+		
 		APIResponse apiResponse=new APIResponse(200, body, headers);
 		
 		context.getLogger().log("Response : "+apiResponse);
