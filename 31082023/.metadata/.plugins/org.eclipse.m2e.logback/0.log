@@ -1930,3 +1930,292 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2023-09-21 14:57:34,727 [Worker-17: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_aws-lamda-with-api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
 2023-09-21 14:57:41,926 [Worker-15: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_aws-lamda-with-api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\aws-lamda-with-api-gateway":
 2023-09-21 14:57:41,927 [Worker-15: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_aws-lamda-with-api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-09-27 17:32:32,189 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-27 17:38:52,356 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:aws-lamda-with-api-gateway:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\aws-lamda-with-api-gateway\pom.xml.
+2023-09-27 17:38:52,904 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-27 17:38:52,909 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 17:38:52,913 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-27 17:38:52,914 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-09-27 17:38:54,026 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.6.0/postgresql-42.6.0-sources.jar
+2023-09-27 17:38:54,158 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.6.0/postgresql-42.6.0-sources.jar
+2023-09-27 17:38:54,165 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.6.0
+2023-09-27 17:38:54,257 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0-sources.jar
+2023-09-27 17:38:54,304 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0-sources.jar
+2023-09-27 17:38:54,309 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.checkerframework:checker-qual:3.31.0
+2023-09-27 17:39:45,557 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-27 17:39:45,557 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-27 17:39:45,564 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-27 17:39:45,564 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-27 17:46:44,732 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-27 17:46:44,732 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-27 17:46:44,735 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-27 17:46:44,735 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:29:57,681 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:29:57,681 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:29:57,683 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:29:57,683 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:33:36,584 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:33:36,585 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:33:36,587 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:33:36,587 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:35:25,815 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:35:25,815 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:35:25,818 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:35:25,818 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:52:23,964 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:hello-world-lambda:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\pom.xml.
+2023-09-28 10:52:24,145 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:52:24,146 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:52:24,148 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:52:24,149 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:52:24,675 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-28 10:52:24,782 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:hello-world-lambda:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\pom.xml.
+2023-09-28 10:52:24,969 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-world-lambda/src/main/java
+2023-09-28 10:52:24,970 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-world-lambda/src/test/java
+2023-09-28 10:52:26,113 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:52:26,114 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:52:26,123 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:52:26,123 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:52:45,375 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:52:45,375 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:52:45,378 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:52:45,378 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:54:30,595 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:54:30,595 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:54:30,598 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:54:30,598 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:56:43,936 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:56:43,936 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:56:43,939 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:56:43,939 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:57:24,974 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:57:24,975 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:57:24,977 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:57:24,978 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 10:59:24,601 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:59:24,601 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 10:59:24,603 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 10:59:24,604 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:00:20,947 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:00:20,947 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:00:20,951 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:00:20,951 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:01:46,061 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:hello-world-lambda:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\pom.xml.
+2023-09-28 11:01:46,234 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:01:46,235 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:01:46,237 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:01:46,237 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:01:46,284 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-28 11:01:46,360 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:hello-world-lambda:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\pom.xml.
+2023-09-28 11:01:46,567 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-world-lambda/src/main/java
+2023-09-28 11:01:46,568 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-world-lambda/src/test/java
+2023-09-28 11:01:47,591 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:01:47,591 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:01:47,593 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:01:47,593 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:03:04,612 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:03:04,612 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:03:04,614 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:03:04,614 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:03:31,676 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:03:31,676 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:03:31,679 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:03:31,679 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:04:13,192 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:04:13,193 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:04:13,195 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:04:13,195 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:04:24,884 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:04:24,885 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:04:24,887 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:04:24,887 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:04:39,358 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:04:39,358 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:04:39,360 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:04:39,360 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:05:07,080 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:05:07,080 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:05:07,082 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:05:07,083 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:06:13,646 [Worker-41: Launching Rerun test()] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:06:13,646 [Worker-41: Launching Rerun test()] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:06:13,648 [Worker-41: Launching Rerun test()] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:06:13,649 [Worker-41: Launching Rerun test()] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:07:10,284 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:07:10,284 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:07:10,286 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:07:10,286 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:24:27,412 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:24:27,412 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:24:27,415 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:24:27,415 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:26:02,166 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:26:02,167 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:26:02,184 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:26:02,184 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:26:40,472 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:hello-world-lambda:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\pom.xml.
+2023-09-28 11:26:40,640 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:26:40,640 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:26:40,642 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:26:40,642 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:26:40,707 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-28 11:26:40,779 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anil:hello-world-lambda:0.0.1-SNAPSHOT @ E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\pom.xml.
+2023-09-28 11:26:40,949 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-world-lambda/src/main/java
+2023-09-28 11:26:40,950 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hello-world-lambda/src/test/java
+2023-09-28 11:26:41,984 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:26:41,984 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:26:41,986 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:26:41,987 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:27:05,081 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:27:05,082 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:27:05,083 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:27:05,084 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:27:53,654 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:27:53,654 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:27:53,656 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:27:53,656 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:30:02,897 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:30:02,898 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:30:02,899 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:30:02,900 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:33:10,297 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:33:10,298 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:33:10,299 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:33:10,299 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:33:22,822 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:33:22,822 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:33:22,823 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:33:22,823 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:35:38,744 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:35:38,744 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:35:38,745 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:35:38,745 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:36:02,810 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:36:02,811 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:36:02,812 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:36:02,812 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:36:26,990 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:36:26,990 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:36:26,992 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:36:26,992 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:38:45,684 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:38:45,685 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:38:45,686 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:38:45,686 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:39:09,149 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:39:09,149 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:39:09,151 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:39:09,151 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:39:58,213 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [346])
+2023-09-28 11:39:58,218 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-09-28 11:39:58,219 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-09-28 11:39:58,219 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-09-28 11:39:58,219 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-09-28 11:39:58,219 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-09-28 11:39:58,219 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-09-28 11:39:58,219 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-09-28 11:39:58,220 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-09-28 11:39:58,220 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-09-28 11:39:58,220 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-09-28 11:39:58,220 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-09-28 11:39:58,221 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-09-28 11:39:58,221 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-09-28 11:39:58,221 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-09-28 11:39:58,222 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-09-28 11:39:58,222 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-09-28 11:39:58,222 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-09-28 11:39:58,222 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-09-28 11:39:58,223 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-09-28 11:39:58,223 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-09-28 11:39:58,224 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-09-28 11:39:58,224 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-09-28 11:39:58,224 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-09-28 11:39:58,224 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-09-28 11:39:58,225 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-09-28 11:39:58,226 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-09-28 11:39:58,226 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-09-28 11:39:58,226 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-09-28 11:39:58,227 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-09-28 11:39:58,227 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-09-28 11:39:58,228 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-09-28 11:39:58,228 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-09-28 11:39:58,228 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-09-28 11:39:58,228 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-09-28 11:39:58,229 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-09-28 11:39:58,229 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-09-28 11:39:58,229 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-09-28 11:39:58,230 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [23])
+2023-09-28 11:39:58,231 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\com.google.guava_31.1.0.jre.jar
+2023-09-28 11:39:58,231 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [580])
+2023-09-28 11:39:58,233 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\slf4j.api_1.7.36.jar
+2023-09-28 11:39:58,233 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [50])
+2023-09-28 11:39:58,235 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-09-28 11:39:58,235 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [48])
+2023-09-28 11:39:58,237 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-09-28 11:39:58,237 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [73])
+2023-09-28 11:39:58,239 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-09-28 11:39:58,239 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [25])
+2023-09-28 11:39:58,240 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.18.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-09-28 11:39:58,247 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda":
+2023-09-28 11:39:58,248 [Worker-40: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-28 11:40:06,223 [Worker-43: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda":
+2023-09-28 11:40:06,224 [Worker-43: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-09-28 11:54:10,514 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:54:10,515 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:54:10,516 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:54:10,517 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:54:37,949 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:54:37,949 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 11:54:37,951 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 11:54:37,951 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 11:54:49,977 [Worker-43: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda":
+2023-09-28 11:54:49,978 [Worker-43: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-28 11:54:59,857 [Worker-43: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda":
+2023-09-28 11:54:59,857 [Worker-43: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-09-28 12:17:46,383 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:17:46,384 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:17:46,385 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:17:46,385 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:20:39,260 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:20:39,260 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:20:39,262 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:20:39,262 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:20:46,361 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:20:46,361 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:20:46,363 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:20:46,363 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:21:22,957 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:21:22,958 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:21:22,960 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:21:22,960 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:21:50,935 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:21:50,936 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:21:50,938 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:21:50,938 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:22:24,294 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:22:24,294 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:22:24,299 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:22:24,299 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:22:50,797 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:22:50,797 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:22:50,799 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:22:50,799 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:23:01,027 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:23:01,027 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:23:01,028 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:23:01,028 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:23:45,163 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:23:45,163 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:23:45,165 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:23:45,165 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:24:18,544 [Worker-55: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda":
+2023-09-28 12:24:18,544 [Worker-55: Launching Executing clean in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2023-09-28 12:24:26,966 [Worker-58: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda":
+2023-09-28 12:24:26,966 [Worker-58: Launching Executing install in E__Anil Pal_Learnings_AWS Lambda_31082023_hello-world-lambda] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-09-28 12:29:21,484 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:29:21,484 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:29:21,487 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:29:21,487 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources
+2023-09-28 12:33:51,801 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:33:51,801 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\main\resources
+2023-09-28 12:33:51,803 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-09-28 12:33:51,804 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Anil Pal\Learnings\AWS Lambda\31082023\hello-world-lambda\src\test\resources

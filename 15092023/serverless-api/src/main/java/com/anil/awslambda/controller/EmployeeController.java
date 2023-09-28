@@ -27,26 +27,31 @@ public class EmployeeController {
 	
 	@PostMapping
 	public Employee saveEmployee(@RequestBody Employee employee) {
+		log.info("saveEmployee called");
 		return employeeService.saveEmployee(employee);
 	}
 	
 	@PutMapping
 	public Employee updateEmployee(@RequestBody Employee employee) {
+		log.info("updateEmployee called");
 		return employeeService.updateEmployee(employee);
 	}
 	
 	@GetMapping("/{empId}")
 	public Employee getEmployeeById(@PathVariable String empId) {
+		log.info("getEmployeeById called");
 		return employeeService.getEmployeeById(empId);
 	}
 	
 	@GetMapping("/employees")
 	public List<Employee> getEmployees() {
+		log.info("getEmployees called");
 		return employeeService.getEmployees();
 	}
 	
 	@DeleteMapping("/{empId}")
 	public String deleteEmployeeById(@PathVariable String empId) {
+		log.info("deleteEmployeeById called");
 		return employeeService.deleteEmployeeById(empId);
 	}
 	

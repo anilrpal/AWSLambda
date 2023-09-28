@@ -1,4 +1,6 @@
 com\anil\HelloWorldLambda1$Request.class
+com\anil\DataSourceProperties$DataSourcePropertiesBuilder.class
+com\anil\DataSourceProperties.class
 com\anil\App.class
 com\anil\InputOutputLambda.class
 com\anil\Test.class
@@ -6,3 +8,4 @@ com\anil\HelloWorldLambda.class
 com\anil\LoggingLambda.class
 com\anil\HelloWorldLambda1$Response.class
 com\anil\HelloWorldLambda1.class
+com\anil\PostgreSqlExample.class

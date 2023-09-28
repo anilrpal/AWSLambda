@@ -35,6 +35,12 @@
       <scope>test</scope>
     </dependency>
     
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.9.3</version>
+    </dependency>
+    
 	<!--<dependency>
 	    <groupId>org.slf4j</groupId>
 	    <artifactId>slf4j-api</artifactId>
@@ -51,6 +57,19 @@
 	    <groupId>io.symphonia</groupId>
 	    <artifactId>lambda-logging</artifactId>
 	    <version>1.0.0</version>
+	</dependency>
+	
+	
+	<dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.6.0</version>
+	</dependency>
+	
+	<dependency>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok</artifactId>
+	<version>1.18.28</version>
 	</dependency>
 
   </dependencies>
