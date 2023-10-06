@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.support.WebClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
@@ -16,6 +17,7 @@ import com.anil.awslambda.external.service.JsonPlaceholderService;
 //// We use direct @Import instead of @ComponentScan to speed up cold starts
 //// @ComponentScan(basePackages = "com.anil.awslambda.controller")
 //@Import({ PingController.class })
+@CrossOrigin(origins = "*")
 public class Application {
 
     public static void main(String[] args) {
